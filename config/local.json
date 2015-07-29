@@ -1,0 +1,32 @@
+{
+  "HOST": "0.0.0.0",
+  "TUMBLR_RECOMMENDATION_POSTS_TIMEOUT": 30000,
+  "TUMBLR_RECOMMENDATION_ALL_POSTS_TIMEOUT": 30000,
+  "MYSQL_URL": "url",
+  "ACTIVE_USER_SHARE_HOURS": 0,
+  "HAS_MIXPANEL": true,
+  "private": {
+    "NEMAAAKTIV__LOGSTASH_HOST": "raiden.brickflow.com",
+    "NEMAAAKTIV___NEW_RELIC_APP_KEY": "key",
+    "FACEBOOK_APP_ID": "id",
+    "FACEBOOK_APP_SECRET": "secret",
+    "FACEBOOK_CALLBACK": "http://0.0.0.0:8080/auth/facebook/callback",
+    "NEMAKTIV___dbaccess":"access"
+    "NEMAKTIV_______RABBITMQ_CREDENTIALS": {
+      "host": "kitana.brickflow.com",
+      "login": "brickflow",
+      "password": "password"
+    },
+    "SOLR_CONFIG": {
+      "host": "reptile.brickflow.com",
+      "port": 8080
+    },
+    "SOLR_CREDENTIALS": {
+      "username": "brickflow",
+      "password": "password"
+    }
+  },
+  "BANNED_HASHTAGS": [
+
+  ]
+}

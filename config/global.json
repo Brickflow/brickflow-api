@@ -1,0 +1,267 @@
+{
+  "ALLOW_ORIGINS": ["brickflow.com", "localhost", "0.0.0.0", "0.0.0.0:8888"],
+
+  "DEFAULT_META_DESCRIPTION": "We analyze your Tumblr blog and automatically give you the best photos that fit your style. You choose the ones you like and publish with a click.",
+
+  "TRIM_FEED_LENGTH": 200,
+
+  "EXTERNAL_PROVIDER_SEARCH_TIMEOUT": 3000,
+  "TUMBLR_RECOMMENDATION_POSTS_TIMEOUT": 10000,
+  "TUMBLR_RECOMMENDATION_TAGGED_TIMEOUT": 5000,
+
+  "TUMBLR_RECOMMENDATION_FIRST_LAYER_TIMEOUT":  20000,
+  "TUMBLR_RECOMMENDATION_SECOND_LAYER_TIMEOUT": 20000,
+
+  "TUMBLR_RECOMMENDATION_SEARCH_TIMEOUT": 1000000,
+  "TUMBLR_RECOMMENDATION_BLOGS_LIMIT": 4,
+  "TUMBLR_RECOMMENDATION_POSTS_LIMIT": 20,
+  "TUMBLR_CLIENT_POSTS_LIMIT": 20,
+  "TUMBLR_RECOMMENDATION_HASHTAGS_LIMIT": 4,
+  "TUMBLR_HASHTAG_SEARCH_POSTS_LIMIT": 80,
+
+  "TUMBLR_RETRIEVE_POST_ID_DELAY": 5000,
+  "TUMBLR_RECOMMENDATION_FOLLOWING_SCORE_INCREMENT": 10,
+
+  "SOLR_BLOG_RECOMMEND_COUNT": 50,
+
+  "AUTO_FOLLOWBACK_FOLLOWERS_QUERY_LIMIT": 100,
+  "AUTO_FOLLOWBACK_FOLLOWERS_QUERY_DELAY": 5000,
+
+  "HASHTAG_SEARCH_SCORE_INCREMENT": 10,
+
+  "SCHEDULE_CACHE_UPDATE_THREAD_LIMIT": 50,
+  "SCHEDULE_CACHE_UPDATE_POST_EXPIRATION_HOURS": 24,
+  "SCHEDULE_POST_NOTECOUNT_UPDATE_THREAD_LIMIT": 20,
+
+  "PROMOTED_CONTENT_EXPERIMENT": {
+    "promotedContent0": {
+      "_id": "tu103506874720",
+      "media": "http://bfegg.tumblr.com/post/103506874720",
+      "provider": "tumblr",
+      "url": "http://33.media.tumblr.com/e90a4feb2f06d6a874316406bc80a4d5/tumblr_nfkmdrIgxG1terttao1_1280.png",
+      "creatorName": "bfegg",
+      "creatorProfilePicture": "http://api.tumblr.com/v2/blog/bfegg.tumblr.com/avatar/48",
+      "text": "",
+      "type": "image",
+      "thumbnail": "http://33.media.tumblr.com/e90a4feb2f06d6a874316406bc80a4d5/tumblr_nfkmdrIgxG1terttao1_1280.png",
+      "createdAt": "2014-11-25T08:45:51.782Z",
+      "postedAt": "2014-11-25 01:20:15 GMT",
+      "likeCount": 0,
+      "reblogKey": "Qs61TsRL"
+    },
+    "promotedContent1": {
+      "_id": "tu103506911650",
+      "media": "http://bfegg.tumblr.com/post/103506911650",
+      "provider": "tumblr",
+      "url": "http://33.media.tumblr.com/496d71a6fe867e4aa492e761adce9290/tumblr_nfkmehWsHz1terttao1_1280.png",
+      "creatorName": "bfegg",
+      "creatorProfilePicture": "http://api.tumblr.com/v2/blog/bfegg.tumblr.com/avatar/48",
+      "text": "",
+      "type": "image",
+      "thumbnail": "http://33.media.tumblr.com/496d71a6fe867e4aa492e761adce9290/tumblr_nfkmehWsHz1terttao1_1280.png",
+      "createdAt": "2014-11-25T08:48:47.016Z",
+      "postedAt": "2014-11-25 01:20:41 GMT",
+      "likeCount": 0,
+      "reblogKey": "otkmungr"
+    },
+    "promotedContent2": {
+      "_id": "tu103506985855",
+      "media": "http://bfegg.tumblr.com/post/103506985855",
+      "provider": "tumblr",
+      "url": "http://33.media.tumblr.com/0a8310abf49c952d8951f676a6d6347a/tumblr_nfkmg57TjF1terttao1_400.jpg",
+      "creatorName": "bfegg",
+      "creatorProfilePicture": "http://api.tumblr.com/v2/blog/bfegg.tumblr.com/avatar/48",
+      "text": "",
+      "type": "image",
+      "thumbnail": "http://33.media.tumblr.com/0a8310abf49c952d8951f676a6d6347a/tumblr_nfkmg57TjF1terttao1_400.jpg",
+      "createdAt": "2014-11-25T08:52:47.935Z",
+      "postedAt": "2014-11-25 01:21:41 GMT",
+      "likeCount": 0,
+      "reblogKey": "SBGKbYch"
+    },
+    "promotedContent3": {
+      "_id": "tu103507036230",
+      "media": "http://bfegg.tumblr.com/post/103507036230",
+      "provider": "tumblr",
+      "url": "http://33.media.tumblr.com/d6e0d880688e92093cd0b65c9ee1b439/tumblr_nfkmh9D2pz1terttao1_1280.jpg",
+      "creatorName": "bfegg",
+      "creatorProfilePicture": "http://api.tumblr.com/v2/blog/bfegg.tumblr.com/avatar/48",
+      "text": "",
+      "type": "image",
+      "thumbnail": "http://33.media.tumblr.com/d6e0d880688e92093cd0b65c9ee1b439/tumblr_nfkmh9D2pz1terttao1_1280.jpg",
+      "createdAt": "2014-11-25T08:54:48.073Z",
+      "postedAt": "2014-11-25 01:22:21 GMT",
+      "likeCount": 0,
+      "reblogKey": "EoDIGMJS"
+    },
+    "promotedContent4": {
+      "_id": "tu103507093375",
+      "media": "http://bfegg.tumblr.com/post/103507093375",
+      "provider": "tumblr",
+      "url": "http://38.media.tumblr.com/e257ae1f5966eff5cb2cd3ffb48412de/tumblr_nfkmikOYbr1terttao1_500.gif",
+      "creatorName": "bfegg",
+      "creatorProfilePicture": "http://api.tumblr.com/v2/blog/bfegg.tumblr.com/avatar/48",
+      "text": "",
+      "type": "image",
+      "thumbnail": "http://38.media.tumblr.com/e257ae1f5966eff5cb2cd3ffb48412de/tumblr_nfkmikOYbr1terttao1_500.gif",
+      "createdAt": "2014-11-25T08:57:18.082Z",
+      "postedAt": "2014-11-25 01:23:08 GMT",
+      "likeCount": 0,
+      "reblogKey": "ORY6UZ40"
+    },
+    "promotedContent5": {
+      "_id": "tu103507132120",
+      "media": "http://bfegg.tumblr.com/post/103507132120",
+      "provider": "tumblr",
+      "url": "http://33.media.tumblr.com/b6cc5a0a66bb94f1906c9898d5d9437c/tumblr_nfkmjeTfmS1terttao1_500.gif",
+      "creatorName": "bfegg",
+      "creatorProfilePicture": "http://api.tumblr.com/v2/blog/bfegg.tumblr.com/avatar/48",
+      "text": "",
+      "type": "image",
+      "thumbnail": "http://33.media.tumblr.com/b6cc5a0a66bb94f1906c9898d5d9437c/tumblr_nfkmjeTfmS1terttao1_500.gif",
+      "createdAt": "2014-11-25T09:01:01.692Z",
+      "postedAt": "2014-11-25 01:23:38 GMT",
+      "likeCount": 0,
+      "reblogKey": "QuRz2oTv"
+    },
+    "promotedContent6": {"_id":"tu103507165925","media":"http://bfegg.tumblr.com/post/103507165925","provider":"tumblr","url":"http://33.media.tumblr.com/6bc4cc82bd9654de96992f6f46b4031e/tumblr_nfkmk6dzxI1terttao1_500.gif","creatorName":"bfegg","creatorProfilePicture":"http://api.tumblr.com/v2/blog/bfegg.tumblr.com/avatar/48","text":"","type":"image","thumbnail":"http://33.media.tumblr.com/6bc4cc82bd9654de96992f6f46b4031e/tumblr_nfkmk6dzxI1terttao1_500.gif","createdAt":"2014-11-25T09:04:20.100Z","postedAt":"2014-11-25 01:24:06 GMT","likeCount":0,"reblogKey":"GBKuBcu7"},
+    "promotedContent7": {
+      "_id":"tu103507205055",
+      "media":"http://bfegg.tumblr.com/post/103507205055",
+      "provider":"tumblr","url":"http://38.media.tumblr.com/161d6da4d30213dc7327899d99a7f74d/tumblr_nfkml0EaFt1terttao1_500.gif","creatorName":"bfegg","creatorProfilePicture":"http://api.tumblr.com/v2/blog/bfegg.tumblr.com/avatar/48","text":"","type":"image","thumbnail":"http://38.media.tumblr.com/161d6da4d30213dc7327899d99a7f74d/tumblr_nfkml0EaFt1terttao1_500.gif","createdAt":"2014-11-25T09:07:23.440Z","postedAt":"2014-11-25 01:24:36 GMT","likeCount":0,"reblogKey":"bkwCUMaR"},
+    "promotedContent8": {
+      "_id":"tu103507325485",
+      "media":"http://bfegg.tumblr.com/post/103507325485",
+      "provider":"tumblr",
+      "creatorName":"bfegg",
+      "creatorProfilePicture":"http://api.tumblr.com/v2/blog/bfegg.tumblr.com/avatar/48",
+      "text":"",
+      "url": "https://mtc.cdn.vine.co/r/videos/06F157DCED1064727744170094592_12fca0b8810.4.8.15345368042420808470.mp4?versionId=d1AsXdJOexPp.TBmzC_OORtNQI1aUzw4",
+      "type":"video",
+      "thumbnail":"http://v.cdn.vine.co/r/thumbs/32E6AB30EE1064727746732830720_13e9e0a00e0.4.8.15345368042420808470.mp4.jpg?versionId=zfDIAVwRHe3_6DbmbZgT2GozcyYxFbUw",
+      "createdAt":"2014-11-25T12:15:03.648Z",
+      "postedAt":"2014-11-25 01:26:12 GMT",
+      "likeCount":0,
+      "reblogKey":"6GNEap6Q"
+    },
+    "promotedContent9": {
+      "_id":"tu103507364865",
+      "media":"http://bfegg.tumblr.com/post/103507364865",
+      "provider":"tumblr",
+      "creatorName":"bfegg",
+      "creatorProfilePicture":"http://api.tumblr.com/v2/blog/bfegg.tumblr.com/avatar/48",
+      "text":"",
+      "url": "https://v.cdn.vine.co/r/videos/A3FBD7D784974769081028890624_1c246099335.3.1_Yq_UmxQk_rrkJ07KAfGJjR._hq5NAZJpKTlvdbN3dmCffGWFmXouVkMtwGSTUeht.mp4?versionId=4sRaMdMRWhwBBPD8RNU2vdgrDxwDrY6J",
+      "type":"video",
+      "thumbnail":"http://v.cdn.vine.co/r/thumbs/AED921E821974769082375303168_10f05d9a4cd.3.1.mp4_fWI2dJeZBV.3k5x0U3ftc_tSa0saFqjDKzJlVxNyshebR0b4mKcS5aEX9HUKjW3A.jpg?versionId=namxvyAns6i5d1QiP5ODrsVMLX_ZdNad","createdAt":"2014-11-25T12:16:15.388Z","postedAt":"2014-11-25 01:26:43 GMT","likeCount":0,"reblogKey":"u41usQmI"},
+    "promotedContent10": {
+      "_id":"tu103507394215",
+      "media":"http://bfegg.tumblr.com/post/103507394215",
+      "provider":"tumblr",
+      "creatorName":"bfegg",
+      "creatorProfilePicture":"http://api.tumblr.com/v2/blog/bfegg.tumblr.com/avatar/48",
+      "text":"",
+      "url": "https://mtc.cdn.vine.co/r/videos/57BAB9B4-6188-415B-9F24-8E69BA85F35C-691-0000012D1AD4F504_1.0.5.mp4?versionId=852ARDgTdMY_PXiSJXdEoa9Lkd18P6Fl", 
+      "type":"video","thumbnail":"http://v.cdn.vine.co/r/thumbs/57BAB9B4-6188-415B-9F24-8E69BA85F35C-691-0000012D1AD4F504_1.0.5.mp4.jpg?versionId=24WxCidh2nt4eYgLcp4eeM0ci6t9lQQF","createdAt":"2014-11-25T12:17:19.908Z","postedAt":"2014-11-25 01:27:07 GMT","likeCount":0,"reblogKey":"Mwe4atrR"},
+    "promotedContent11": {
+      "_id":"tu103507475295",
+      "media":"http://bfegg.tumblr.com/post/103507475295",
+      "provider":"tumblr",
+      "creatorName":"bfegg",
+      "creatorProfilePicture":"http://api.tumblr.com/v2/blog/bfegg.tumblr.com/avatar/48",
+      "text":"",
+      "type":"video",
+      "url": "https://v.cdn.vine.co/r/videos/4B4FAB9A-1CC4-47F3-8079-6415B62940AB-355-000000CAE12D0143_1.0.4.mp4?versionId=mto3svPzx.Mj8LlUy6lVdTQJ7dYFJHN.",
+      "thumbnail":"http://v.cdn.vine.co/r/thumbs/4B4FAB9A-1CC4-47F3-8079-6415B62940AB-355-000000CAE12D0143_1.0.4.mp4.jpg?versionId=GiPse4zqY3rV3hQWikzR2ZBqwpK.syiM","createdAt":"2014-11-25T12:17:54.956Z","postedAt":"2014-11-25 01:28:10 GMT","likeCount":0,"reblogKey":"L82Nrjrt"}
+  },
+
+
+  "BANNED_HASHTAGS": [
+    "jailbait",
+    "jailbate",
+    "jail bait",
+    "jailbait selfie",
+    "jailbait nude",
+    "jailbait teen",
+    "nude jailbait",
+    "jailbait slut",
+    "preteen nude",
+    "sexy jailbait",
+    "jailbait ass",
+    "jailbait pussy",
+    "jailbait upskirt",
+    "daughter incest",
+    "jailbait boobs",
+    "jailbait girls",
+    "jailbait sexy",
+    "preteen porn",
+    "preteen slut",
+    "beach jailbait",
+    "beautiful jailbait",
+    "daughter cincest",
+    "facebook jailbait",
+    "horny jailbait",
+    "jail-bait",
+    "jailbait at mirror",
+    "jailbait bikini",
+    "jailbait butt",
+    "jailbait down blouse",
+    "jailbait facbook",
+    "jailbait from facebook",
+    "jailbait from twitter",
+    "jailbait fuck",
+    "jailbait gone wild",
+    "jailbait incest",
+    "jailbait mirror",
+    "jailbait naked",
+    "jailbait nice timming",
+    "jailbait non-nude",
+    "jailbait nonnude",
+    "jailbait party",
+    "jailbait pics",
+    "jailbait pictures",
+    "jailbait selfies",
+    "jailbait simi nude",
+    "jailbait wardrobe malfunction",
+    "jailbait young",
+    "jailbaitfeet"
+  ],
+
+  "PROVIDER_LIMITS": {
+    "giphy": 0.78,
+    "instagram": 0.58,
+    "tumblr": 0.75,
+    "twitter": 0.51,
+    "vine": 0.30
+  },
+  "DESIRED_FEED_LENGTH": 80,
+
+  "TUMBLR_BLOGS_CACHE_DELAY": 20000,
+  "TUMBLR_HASHTAGS_CACHE_DELAY": 40000,
+
+  "ACTIVE_USER_SHARE_HOURS": 12,
+
+  "LAST_SEEN_TRESHOLD_HOURS": 8,
+
+  "REWARD_MAX_STAR_COUNT": 3,
+  "REWARD_TEXTS": [
+    "Congrats on your first posts. Keep on to unlock a feature.", 
+    "You’re almost there. Go on filling your blog with awesome content.",
+    "Last star filling"
+  ],
+
+  "BRICK_RESTRICTIONS": {
+    "minWidth": 200,
+    "minHeight": 200,
+    "landscapeAspectRatioLimit": 5,
+    "portraitAspectRatioLimit": 5
+  },
+  "LOGSTASH_PORT": 28777,
+  "LOGSTASH_APP_NAME": "brickflow_node",
+
+  "SES_KEY": "AKIAI62O62NFHOU3QINA",
+  "SES_SECRET": "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",
+  "EMAIL_FROM": "Brickflow <info@brickflow.com>",
+
+  "BLOG_FEED_FALLBACK_MAX_LENGTH": 50
+}

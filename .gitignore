@@ -1,0 +1,7 @@
+atlassian-ide-plugin.xml
+.idea
+node_modules
+log
+newrelic_agent.log
+npm-debug.log
+dev.js
